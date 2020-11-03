@@ -9,6 +9,8 @@ public class Collatz {
 		Scanner stdIn = new Scanner(System.in);
 		long num = stdIn.nextInt();
 		
+		stdIn.clode();
+		
 		while (true) {
 			System.out.print(num + " ");
 			
